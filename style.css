@@ -93,3 +93,27 @@ body{
 .dm-fs-p{
     font-size: 20px;
 }
+/*Fine Jumbo 1*/
+
+/*Immagini games*/
+.dm-wd-items{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.dm-up {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    cursor: pointer;
+  }
+
+.dm-up:hover{
+    top: -10px;
+}
+
+.dm-img-active{
+    border: 3px solid #fff;
+    outline: 3px solid #0072ce;
+    border-radius: 20px;
+}
