@@ -1,0 +1,50 @@
+.dm-color-header-sony{
+    background-color: #000;
+}
+
+.dm-bg-white{
+    background-color: #fff;
+}
+
+.dm-logo-color{
+    width: 70px;
+    height: 30px;
+    filter: invert(0);
+}
+
+.dm-txt-black{
+    text-decoration: none;
+    color: #000;
+}
+
+.dm-chevron-size{
+    width: 10px;
+}
+
+.dm-button{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border-radius: 50px;
+    background-color: black;
+    padding: 3px;
+    animation: 2s;
+}
+
+.dm-button:hover .dm-inside-button{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.dm-inside-button{
+    text-decoration: none;
+    width: 110px;
+    color: #fff;
+    background-color: none;
+    border-radius: 50px;
+}
+
+.dm-lens-size{
+    width: 30px;
+    margin-left: 10px;
+}
