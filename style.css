@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
 .dm-color-header-sony{
     background-color: #000;
 }
@@ -21,13 +28,27 @@
     width: 10px;
 }
 
+.dm-lens-size{
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+/*Buttons*/
+.dm-button-black{
+    background-color: #000;
+}
+
+.dm-button-orange{
+    background-color: #cd3d0f;    
+}
+
 .dm-button{
     display: flex;
     justify-content: center;
     width: 30%;
     border-radius: 50px;
-    background-color: black;
-    padding: 3px;
+    padding: 1%;
     animation: 2s;
 }
 
@@ -44,7 +65,31 @@
     border-radius: 50px;
 }
 
-.dm-lens-size{
-    width: 30px;
-    margin-left: 10px;
+.dm-button-wd{
+    width: 100%;
+}
+/*Fine Buttons*/
+
+
+
+/*Jumbo 1*/
+.dm-jumbo1{
+    margin-top: 120px;
+    background-image: url(img/jumbo-bg.png);
+    min-height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.dm-game-name{
+    width: 55%;
+}
+
+.dm-fs-h1{
+    font-size: 60px;
+}
+
+.dm-fs-p{
+    font-size: 20px;
 }
