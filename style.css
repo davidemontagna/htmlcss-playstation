@@ -40,7 +40,8 @@ body{
 }
 
 .dm-button-orange{
-    background-color: #cd3d0f;    
+    background-color: #cd3d0f;
+    cursor: pointer;    
 }
 
 .dm-button{
@@ -87,7 +88,7 @@ body{
 }
 
 .dm-fs-h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .dm-fs-p{
@@ -116,4 +117,13 @@ body{
     border: 3px solid #fff;
     outline: 3px solid #0072ce;
     border-radius: 20px;
+}
+/*Fine immagini games*/
+
+.dm-txt-color-lightblue{
+    color: #127cd1;
+}
+
+.dm-txt-color-grey{
+    color: #818181;
 }
