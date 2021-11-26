@@ -66,7 +66,7 @@ body{
     border-radius: 50px;
 }
 
-.dm-button-wd{
+.dm-button-wd, .dm-wd-100{
     width: 100%;
 }
 /*Fine Buttons*/
@@ -120,10 +120,19 @@ body{
 }
 /*Fine immagini games*/
 
+/*Sezione presentazione Play 5*/
 .dm-txt-color-lightblue{
     color: #127cd1;
 }
 
 .dm-txt-color-grey{
     color: #818181;
+}
+
+.dm-margin-t{
+    margin-top: 100px;
+}
+
+.dm-fs-span-play5{
+    font-size: 20px;
 }
