@@ -4,8 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 /*Header*/
-.dm-color-header-sony{
+.dm-color-header-sony, .dm-bg-black{
     background-color: #000;
 }
 
