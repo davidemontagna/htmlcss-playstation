@@ -24,6 +24,10 @@ body{
     color: #000;
 }
 
+.dm-txt-black:hover{
+    color: #000;
+}
+
 .dm-chevron-size{
     width: 10px;
 }
@@ -133,6 +137,24 @@ body{
     margin-top: 100px;
 }
 
-.dm-fs-span-play5{
+.dm-fs-span-play5, .dm-fs-gadget{
     font-size: 20px;
+}
+
+.dm-img-wd-70{
+    width: 70%;
+}
+
+/*Gestione gadget active*/
+.dm-gadget-active{
+    border-bottom: 2px solid #0072ce;
+}
+
+.dm-gadget{
+    opacity: .7;
+    transition: 1s;
+}
+
+.dm-gadget:hover{
+    opacity: 1;
 }
