@@ -239,3 +239,14 @@ body{
     background-color: #161c3b;   
 }
 
+
+/*Footer*/
+.dm-footer-color{
+    background-color: #00439c;
+    padding: 80px 10px;
+}
+
+.dm-size-globe{
+    width: 15px;
+    height: 15px;
+}
