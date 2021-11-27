@@ -61,6 +61,15 @@ body{
     width: 130px;
 }
 
+.dm-button-grey{
+    background-color: #d9dadc;
+    width: 250px;
+}
+
+.dm-button-grey a button{
+    color: #2d64e6;
+}
+
 
 .dm-button{
     display: flex;
@@ -74,6 +83,13 @@ body{
 .dm-button:hover .dm-inside-button{
     border: 2px solid #fff;
     color: #fff;
+}
+
+.dm-button-grey:hover{
+    -moz-box-shadow:    inset 0 4 5px #9c9c58;
+    -webkit-box-shadow: inset 0 0 5px #9c9c58;
+    box-shadow:         inset 0 0 5px #9c9c58;
+    border-radius: 50px;
 }
 
 .dm-inside-button{
@@ -190,4 +206,22 @@ body{
 /*Playstation 4*/
 .dm-fs-span-play4{
     font-size: 23px;
+}
+
+/*Playstation Plus*/
+.dm-bg-grey{
+    background-color: #bebcbb;
+    
+}
+
+.dm-logo-ps-plus{
+    width: 50%;
+}
+
+.dm-fs-p-plus{
+    font-size: 18px;
+}
+
+.dm-img-plus{
+    width: 467px;
 }
