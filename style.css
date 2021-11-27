@@ -210,8 +210,7 @@ body{
 
 /*Playstation Plus*/
 .dm-bg-grey{
-    background-color: #bebcbb;
-    
+    background-color: #bebcbb;   
 }
 
 .dm-logo-ps-plus{
@@ -220,8 +219,4 @@ body{
 
 .dm-fs-p-plus{
     font-size: 18px;
-}
-
-.dm-img-plus{
-    width: 467px;
 }
