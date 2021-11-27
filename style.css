@@ -239,14 +239,26 @@ body{
     background-color: #161c3b;   
 }
 
+.dm-wd-social{
+    width: 60%;
+}
+
 
 /*Footer*/
 .dm-footer-color{
     background-color: #00439c;
-    padding: 80px 10px;
+    padding: 100px 10px;
 }
 
 .dm-size-globe{
     width: 15px;
     height: 15px;
+}
+
+.dm-wd-sie-logo{
+    width: 100px;
+}
+
+.dm-fs-rights{
+    font-size: 17px;
 }
