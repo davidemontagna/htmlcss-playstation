@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -21,15 +22,6 @@ body{
     filter: invert(0);
 }
 
-.dm-txt-black{
-    text-decoration: none;
-    color: #000;
-}
-
-.dm-txt-black:hover{
-    color: #000;
-}
-
 .dm-chevron-size{
     width: 10px;
 }
@@ -39,6 +31,22 @@ body{
     margin-left: 10px;
 }
 
+.dm-play-h:hover{
+    box-shadow: inset 0 0 0 3px #000;
+}
+
+.nav-link:hover span{
+    color: #2d64e6;
+}
+
+.nav-link.show span{
+    color: #2d64e6;
+}
+
+.nav-link.show .dm-showed{
+    transform: rotate(180deg);
+    fill: #2d64e6;
+}
 
 /*Buttons*/
 .dm-button-black{
@@ -82,12 +90,12 @@ body{
     border-radius: 50px;
     padding: 3px;
     animation: 2s;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
-.dm-button:hover .dm-inside-button{
+.dm-button:hover .dm-inside-button{    
     border: 2px solid #fff;
-    color: #fff;
+    color: #fff;   
 }
 
 .dm-button-grey:hover{
@@ -108,7 +116,7 @@ body{
     text-decoration: none;
     color: #fff;
     background-color: none;
-    border-radius: 50px;
+    border-radius: 50px;    
 }
 
 .dm-button-wd, .dm-wd-100{
